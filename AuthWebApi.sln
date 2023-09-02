@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthWebApi", "AuthWebApi\AuthWebApi.csproj", "{8C88D83F-A7A7-438E-8AB0-208E07F70BDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthWebApi.Presentation", "AuthWebApi\AuthWebApi.Presentation.csproj", "{8C88D83F-A7A7-438E-8AB0-208E07F70BDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Core", "Auth.Core\Auth.Core.csproj", "{333D287E-C3B8-4563-AC4E-96A884AF2131}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Domain", "Auth.Core\Auth.Domain.csproj", "{333D287E-C3B8-4563-AC4E-96A884AF2131}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Application", "Auth.Application\Auth.Application.csproj", "{ABFD1F0F-EBE0-4B54-A3D9-E23640ADF66F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Application", "Auth.Application\Auth.Application.csproj", "{ABFD1F0F-EBE0-4B54-A3D9-E23640ADF66F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Infrastructure", "Auth.Infrastructure\Auth.Infrastructure.csproj", "{18C7BFE1-C9B5-4C7E-B669-1DBD669F2693}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Persistence", "Auth.Infrastructure\Auth.Persistence.csproj", "{18C7BFE1-C9B5-4C7E-B669-1DBD669F2693}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
